@@ -14,3 +14,6 @@ APPOBJ=",obj/bk_BLESER.obj,obj/bk_JPEG.obj" app apps/bild/RDBILD.C RDBILD.EXE "B
 Test: `test/rdbild.sh`.
 
 Lizenz: GPL v2 oder später (siehe COPYING).
+
+## Symbol
+`src/*.ICO` ist das Programmsymbol (S/W und CGA, aus `*_SYM.TXT` und `*_SYM_C.TXT` mit `tools/mkrdb.py ... --cga`), über `SYMBOL 1` in der .RC in die EXE eingebaut. Die farbige Fassung `src/farbe/*.TXT` steht im farbigen Symbolsatz FARBSYM.DAT von RetroDesk 2.
